@@ -150,14 +150,19 @@ section.one div.radio {
 }
 
 section.one div.plan> div {
-    width: 32%;
     border: 1px solid #E6E6E7;
 }
 
 section.one div.plan {
     height: 100%;
+    float: left;
+    width: 30%;
 }
 
+section.one div.plan.stand {
+    margin-left: 5%;
+    margin-right: 5%;
+}
 section.one div.title_cont {
     text-align: center;
     padding: 0.5rem;
