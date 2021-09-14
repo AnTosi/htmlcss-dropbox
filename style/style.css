@@ -156,6 +156,7 @@ section.one div.title_cont {
 
 section.one div.plan_cont {
     padding: 1.5rem;
+    font-size: 0.8rem;
 }
 
 section.one h4 {
@@ -168,16 +169,20 @@ section.one span {
     display: inline-block;
 }
 
-section.one span.small_font {
-    font-size: 0.8rem;
+section.one span.grey_text {
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 section.one p {
     margin-top: 30px;
 }
 
-section.one
+section.one span.btn {
+    margin-top: 50px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
 
 section.one
 
@@ -204,6 +209,11 @@ section {
 .thick {
     font-weight: 700;
 }
+
+.grey_text {
+    color: #758390
+}
+
 /* /utility */
 /* debug */
 
