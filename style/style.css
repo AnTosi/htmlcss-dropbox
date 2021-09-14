@@ -46,11 +46,7 @@ header div>span {
     margin: 0 20px;
 }
 
-header div.left>span {
-    
-}
-
-header div>span:hover {
+header div>span.ani:hover {
     border-bottom: 2px solid grey;
 }
 
@@ -62,14 +58,19 @@ header div.right {
 
 /* buttons */
 .btn {
-    padding: 0.2rem 1rem;
+    padding: 0.4rem 1rem;
     background-color: #0061FF;
     color: white;
+}
+
+.btn:hover {
+    background-color: #2b78f3;
+    cursor: pointer;
 }
 /* /buttons */
 /* container */
 .large_cnt {
-    width: 80%;
+    width: 75%;
     margin: auto;
 }
 
@@ -77,33 +78,70 @@ header div.right {
     width: 66%;
     margin: auto;
 }
+
 /* container */
 
 /* sitemain */
 
 section.jumbo {
     background-color: #B4D0E7;
+    padding-top: 10%;
 }
 
+.jumbo h2 {
+    margin-bottom: 30px;
+}
 
+.jumbo .jumbo_content div.img_container {
+    float: right;
+}
 
+.jumbo img {
+    height: 400px;
+}
 
+section.jumbo div.jumbo_left {
+    width: 35%;
+    font-size: 1rem;
+    display: inline-block;
+    padding-bottom: 50px;
+}
 
+section.jumbo div.jumbo_left p:first-child {
+    margin-bottom: 2rem;
+    padding-right: 0.2rem;
+}
+
+section.jumbo div.jumbo_left p:not(first-child) {
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+section.jumbo div.jumbo_left span {
+    margin: 1.5rem 0;
+}
+
+section.jumbo div.img_container {
+    width: 65%;
+    text-align: right;
+}
+
+i.fa-arrow-down {
+    font-size: 3rem;
+    color: black;
+}
 
 
 
 /* /sitemain */
 
-/* debug */
-.debug .jumbo {
-    height: 500px;
-}  
-
-.debug .jumbo .large_cnt {
-    background-color: white;
-    height: 500px;
+/* utility */
+h2 {
+    font-size: 4.2rem;
+    font-weight: 700;
 }
-
+/* /utility */
+/* debug */
 .debug section.thin_cnt {
     background-color: yellowgreen;
     height: 500px;
