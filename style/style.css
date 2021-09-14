@@ -14,8 +14,9 @@ header {
     position: fixed;
 }
 
-header>span {
+header>div {
     width: 50%;
+    float: left;
 }
 
 /* debug */
