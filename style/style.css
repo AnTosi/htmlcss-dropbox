@@ -10,3 +10,26 @@
     clear: both;
 }
 
+header {
+    position: fixed;
+}
+
+header>span {
+    width: 50%;
+}
+
+/* debug */
+.debug header {
+    height: 100px;
+    background-color: cornsilk;
+}
+
+.debug .left {
+    background-color: blueviolet;
+    height: 100px;
+}
+
+.debug .right {
+    background-color: brown;
+    height: 100%;
+}
