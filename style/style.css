@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .clearfix::after {
     display: table;
     content: "";
@@ -14,11 +18,37 @@
 header {
     position: fixed;
     width: 100%;
+    height: 60px;
+    vertical-align: middle;
+    background-color: white;
 }
+
 
 header>div {
     width: 50%;
     float: left;
+    height: 100%;
+    line-height: 60px;
+    vertical-align: middle;
+}
+
+
+header img {
+    vertical-align: middle;
+    margin-left: 10px;
+    line-height: 60px;
+    margin-right: 20px;
+}
+
+header div>span {
+    margin: 0 20px;
+    font-size: 0.9rem;
+    display: inline-block;
+
+}
+
+header div>span:hover {
+    border-bottom: 2px solid grey;
 }
 /* /siteheader */
 
@@ -50,21 +80,6 @@ section.jumbo {
 /* /sitemain */
 
 /* debug */
-.debug header {
-    height: 100px;
-    background-color: cornsilk;
-}
-
-.debug .left {
-    background-color: blueviolet;
-    height: 100px;
-}
-
-.debug .right {
-    background-color: brown;
-    height: 100%;
-}
-
 .debug .jumbo {
     height: 500px;
 }  
