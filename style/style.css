@@ -85,3 +85,12 @@ section.jumbo {
     background-color: cadetblue;
     height: 500px;
 }
+
+.debug footer {
+    background-color: darkgoldenrod;
+}
+
+.debug footer div div {
+    border-top: 2px solid white;
+    height: 300px;
+}
