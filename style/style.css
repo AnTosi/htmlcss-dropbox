@@ -10,6 +10,7 @@
     clear: both;
 }
 
+/* siteheader */
 header {
     position: fixed;
     width: 100%;
@@ -19,6 +20,34 @@ header>div {
     width: 50%;
     float: left;
 }
+/* /siteheader */
+
+/* container */
+.large_cnt {
+    width: 80%;
+    margin: auto;
+}
+
+.thin_cnt {
+    width: 66%;
+    margin: auto;
+}
+/* container */
+
+/* sitemain */
+
+section.jumbo {
+    background-color: #B4D0E7;
+}
+
+
+
+
+
+
+
+
+/* /sitemain */
 
 /* debug */
 .debug header {
@@ -35,3 +64,18 @@ header>div {
     background-color: brown;
     height: 100%;
 }
+
+.debug .jumbo {
+    height: 500px;
+}  
+
+.debug .jumbo .large_cnt {
+    background-color: white;
+    height: 500px;
+}
+
+.debug section.thin_cnt {
+    background-color: yellowgreen;
+    height: 500px;
+    border-top: 1px solid red;
+    border-bottom: 1px solid blue
