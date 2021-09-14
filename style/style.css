@@ -41,17 +41,32 @@ header img {
 }
 
 header div>span {
-    margin: 0 20px;
     font-size: 0.9rem;
     display: inline-block;
+    margin: 0 20px;
+}
 
+header div.left>span {
+    
 }
 
 header div>span:hover {
     border-bottom: 2px solid grey;
 }
+
+header div.right {
+    text-align: right;
+}
+
 /* /siteheader */
 
+/* buttons */
+.btn {
+    padding: 0.2rem 1rem;
+    background-color: #0061FF;
+    color: white;
+}
+/* /buttons */
 /* container */
 .large_cnt {
     width: 80%;
