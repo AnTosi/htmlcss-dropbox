@@ -150,7 +150,7 @@ section.one div.radio {
     margin-bottom: 30px;
 }
 
-section.one div.plan> div {
+section.one div.plan>div {
     border: 1px solid #E6E6E7;
 }
 
@@ -170,7 +170,7 @@ section.one div.title_cont {
 }
 
 section.one div.plan_cont {
-    padding: 2.291rem;
+    padding: 1.5rem;
     font-size: 0.8rem;
 }
 
@@ -190,19 +190,24 @@ section.one span {
 
 section.one span.grey_text {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 40px;
 }
 
 section.one p {
     margin-top: 20px;
 }
 
-section.one span.btn {
+section.one div.btn_container {
+    text-align: center;
     margin-top: 30px;
-    padding-left: 3rem;
-    padding-right: 3rem;
     margin-bottom: 10px;
 }
+
+section.one span.btn {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+ 
 
 section.one span.link {
     margin-bottom: 10px;
@@ -229,11 +234,14 @@ section.one h5 {
     margin-bottom: 10px;
 }
 
-section.one i.fa-check {
-    color: blue;
+section.one i {
     height: 100%;
     line-height: 100%;
     vertical-align: top;
+}
+
+section.one i.fa-check {
+    color: blue;
 }
 
 section.one div i~span {
@@ -244,11 +252,11 @@ section.one div i~span {
     margin-left: 5px;
 }
 
-section.one div.checklist div {
+section.one div.icons div {
     position: relative;
     line-height: 100%;
     vertical-align: middle;
-    padding: 10px 0;
+    padding: 15px 0;
 }
 
 
