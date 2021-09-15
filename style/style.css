@@ -17,7 +17,7 @@
 html {
     scroll-behavior: smooth;
     height: 100%;
-  }
+}
   
 /* siteheader */
 header {
@@ -524,10 +524,15 @@ footer li {
     line-height: 1.8rem;
 }
 
+footer li:hover {
+    cursor: pointer;
+}
+
 footer h5 {
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
 }
+
 footer div.clearfix>div {
     float:left;
 
@@ -617,7 +622,32 @@ a {
 }
 /* /utility */
 
-/* debug */
-footer {
-    height: 500px;
+/* supportdropdown */
+span.hide {
+    display: none;
+    height: 40px;
+    position: relative;
+    width: 80px;
+    font-size: 0.8rem;
+    text-align: left;
+    line-height: 1.2rem;
+    text-decoration: none;
+    color: grey;
+}
+
+header span.hide a {
+    margin-bottom: 2px;
+    border-bottom: 1px solid grey;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    vertical-align: middle;
+    text-decoration: none;
+    color: grey;
+}
+
+span.show:hover span.hide {
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    color: grey;
 }
