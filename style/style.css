@@ -16,6 +16,7 @@
 
 html {
     scroll-behavior: smooth;
+    height: 100%;
   }
   
 /* siteheader */
@@ -175,6 +176,7 @@ section.one div.title_cont {
 section.one div.plan_cont {
     padding: 1.5rem;
     font-size: 0.8rem;
+    padding-bottom: 6rem;
 }
 
 section.one h4 {
