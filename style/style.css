@@ -31,7 +31,6 @@ header {
 
 
 header>div {
-    width: 50%;
     float: left;
     height: 100%;
     line-height: 60px;
@@ -223,10 +222,6 @@ section.one span.link {
     margin-bottom: 10px;
 }
 
-section.one span.link a {
-    color: #156EFF;
-}
-
 section.one hr {
     display: inline-block;
     height: 1px;
@@ -299,7 +294,6 @@ section.one .large .cnt>div.left p {
 /* /section1 */
 
 section.two>div>div {
-    width: 50%;
     float: left;
 }
 
@@ -339,6 +333,15 @@ section.three .underlined {
 section.three p {
     padding-right: 0.5rem;
 }
+/* /section3 */
+
+section.four h3 {
+    padding-right: 2rem;
+}
+
+section.four a {
+    font-size: 0.8rem;  
+}
 /* /sitemain */
 
 /* utility */
@@ -376,9 +379,16 @@ section {
     width: 33.33%;
 }
 
+.col_50 {
+    width: 50%;
+}
 h3 {
     font-size: 2rem;
     margin-bottom: 2rem;
+}
+
+a {
+    color: #156EFF;
 }
 /* /utility */
 /* debug */
