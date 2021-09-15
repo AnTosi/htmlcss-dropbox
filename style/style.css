@@ -508,7 +508,44 @@ section.seven div.answers {
 section.seven div.questions:hover div.answers {
     display: block;
 }
+/* /sezione7 */
 /* /sitemain */
+
+/* sitefooter */
+footer {
+    background-color: black;
+    padding: 80px 0 20px 0;
+    color: white;
+}
+
+footer li {
+    list-style: none;
+    font-size: 0.8rem;
+    line-height: 1.8rem;
+}
+
+footer h5 {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+footer div.clearfix>div {
+    float:left;
+
+}
+
+footer div.clearfix {
+    margin-bottom: 80px;
+}
+
+footer select {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-style: none;
+}
+footer select>option {
+    background-color: black;
+}
+/* /sitefooter */
 
 /* utility */
 p {
@@ -552,6 +589,11 @@ section {
 .col_50 {
     width: 50%;
 }
+
+.col_20 {
+    width: 20%;
+}
+
 h3 {
     font-size: 2rem;
     margin-bottom: 2rem;
@@ -566,3 +608,7 @@ a {
 }
 /* /utility */
 
+/* debug */
+footer {
+    height: 500px;
+}
