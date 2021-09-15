@@ -358,20 +358,83 @@ div.five div.middle {
 }
 
 div.five div.square {
-    height: 50%;
+    height: 227.867px;
     width: 50%;
     position:relative;
 }
 
 div.five div.square img {
-    width: 50%;
+    width: 40%;
     margin-top: auto;
     margin-bottom: auto;
-    fill: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1)
 }
+
 div.five div.side_left div.tl {
     background-color: #A2D39B;
-    border: 10px solid #D0E9CD;}
+    border: 10px solid #D0E9CD;
+}
+
+div.five div.side_left div.tr {
+    background-color: #61082B;
+}
+
+div.five div.side_left div.bl {
+    background-color: #0093CE;
+}
+
+div.five div.side_left div.br {
+    background-color: #FF1C1C;
+}
+
+div.five div.middle {
+    padding: 2rem;
+    background-color: #F5F5F5;
+    height: 455.75px;
+}
+
+div.five div.middle img {
+    width: 20%;
+}
+
+div.five div.middle div{
+    display: block;
+    width: 100%;
+}
+
+div.five div.middle hr {
+    display: inline-block;
+    width: 10%;
+    height: 1px;
+    color: #E4E4E6;
+    margin: 1.5rem 0;
+    border: 1px solid #E4E4E6;
+}
+
+div.five div.middle p {
+    padding-right: 3rem;
+    margin-bottom: 2rem;
+}
+
+div.five div.side_right div.tl {
+    background-color: #D5001F;
+}
+
+div.five div.side_right div.tr {
+    background-color: #B4D0E7;
+}
+
+div.five div.side_right div.bl {
+    background-color: #0D2481;
+}
+
+div.five div.side_right div.br {
+    background-color: #FFD830;
+}
 /* /sitemain */
 
 /* utility */
@@ -435,9 +498,4 @@ a {
 .debug footer div div {
     border-top: 2px solid white;
     height: 300px;
-}
-
-.debug .cont {
-    height: 300px;
-    background-color: bisque;
 }
