@@ -321,11 +321,11 @@ section.two .text_cnt span.btn{
 
 section.three .col_33 {
     float: left;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 section.three .clearfix.cnt {
-    margin: 0 -2rem;
+    margin: 0 -1rem;
 }
 
 section.three img {
@@ -334,6 +334,10 @@ section.three img {
 
 section.three .underlined {
     text-decoration-line: underline;
+}
+
+section.three p {
+    padding-right: 0.5rem;
 }
 /* /sitemain */
 
