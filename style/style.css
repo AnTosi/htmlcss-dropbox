@@ -161,10 +161,6 @@ section.one div.radio {
     margin-bottom: 30px;
 }
 
-section.one div.grey_bord>div {
-    border: 1px solid #E6E6E7;
-}
-
 section.one div.col_33 {
     float: left;
     padding: 1rem;
@@ -460,6 +456,58 @@ section.six>div.clearfix>div.right>span.btn.white_back {
     border-style: none;
     display: inline-block;
 }
+/* /section6 */
+section.seven {
+    padding-bottom: 100px;
+}
+
+section.seven h3 {
+    margin-bottom: 50px;
+}
+
+section.seven div.questions {
+    border-left-style: none;
+    border-right-style: none;
+    padding-right: 1rem;
+}
+
+section.seven span.bold {
+    font-weight: 700;
+}
+
+section.seven div.grey_bord>div {
+    padding: 2rem 0;
+}
+
+section.seven div.grey_bord>div>div {
+    margin-top: 1rem;
+}
+
+section.seven span.icon {
+    margin-right: 10px;
+    margin-left: auto;
+    text-align: right;
+}
+
+section.seven div.left {
+    width: 80%;
+}
+
+section.seven div.right {
+    width: 20%;
+}
+
+section.seven div.clearfix>div {
+    float: left;
+}
+
+section.seven div.answers {
+    display: none;
+}
+
+section.seven div.questions:hover div.answers {
+    display: block;
+}
 /* /sitemain */
 
 /* utility */
@@ -487,6 +535,10 @@ section {
 
 .grey_text {
     color: #758390
+}
+
+.grey_bord {
+    border: 1px solid #E6E6E7;
 }
 
 .white_back {
