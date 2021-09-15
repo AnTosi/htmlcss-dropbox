@@ -73,6 +73,17 @@ header div.right {
     background-color: #2b78f3;
     cursor: pointer;
 }
+
+.btn.white_back {
+    color: black;
+    border: 1px solid black;
+}
+
+.btn.white_back:hover {
+    color: rgb(22, 22, 22);
+    border: 1px solid rgb(22, 22, 22);
+    background-color: rgb(250, 250, 250);
+}
 /* /buttons */
 
 /* container */
@@ -177,11 +188,6 @@ section.one div.plan_cont {
     font-size: 0.8rem;
     padding-bottom: 6rem;
     min-height: 1000px;
-}
-
-section.one h4 {
-    font-size: 1.5rem;
-    margin-bottom: 1.2rem;
 }
 
 section.one p>span {
@@ -291,7 +297,32 @@ section.one .large .cnt>div {
 section.one .large .cnt>div.left p {
     font-size: 0.8rem;
 }
+/* /section1 */
 
+section.two>div>div {
+    width: 50%;
+    float: left;
+}
+
+section.two img {
+    width: 100%;
+}
+
+section.two div.text_cnt {
+    padding-top: 3rem;
+    padding-left: 3.5rem;
+    padding-right: 0.3rem;
+}
+
+section.two .text_cnt span.btn{
+    margin-top: 2rem;
+    display: inline-block;
+}
+
+
+section.two
+
+section.two
 
 /* /sitemain */
 
@@ -299,6 +330,11 @@ section.one .large .cnt>div.left p {
 h2 {
     font-size: 4.2rem;
     font-weight: 700;
+}
+
+h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
 }
 
 section {
@@ -313,6 +349,9 @@ section {
     color: #758390
 }
 
+.white_back {
+    background-color: white;
+}
 /* /utility */
 /* debug */
 
