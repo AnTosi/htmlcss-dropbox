@@ -342,6 +342,36 @@ section.four h3 {
 section.four a {
     font-size: 0.8rem;  
 }
+/* /section4 */
+div.five div.cont div {
+    float: left;
+}
+
+div.five div[class^="side"] {
+    width: 30%;
+    height: 100%;
+}
+
+div.five div.middle {
+    width: 40%;
+    height: 100%;
+}
+
+div.five div.square {
+    height: 50%;
+    width: 50%;
+    position:relative;
+}
+
+div.five div.square img {
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    fill: white;
+}
+div.five div.side_left div.tl {
+    background-color: #A2D39B;
+    border: 10px solid #D0E9CD;}
 /* /sitemain */
 
 /* utility */
@@ -405,4 +435,9 @@ a {
 .debug footer div div {
     border-top: 2px solid white;
     height: 300px;
+}
+
+.debug .cont {
+    height: 300px;
+    background-color: bisque;
 }
