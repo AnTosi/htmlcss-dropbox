@@ -168,7 +168,6 @@ section.one div.grey_bord>div {
 
 section.one div.col_33 {
     float: left;
-    width: 33.33%;
     padding: 1rem;
 }
 
@@ -318,15 +317,31 @@ section.two .text_cnt span.btn{
     margin-top: 2rem;
     display: inline-block;
 }
+/* /section2 */
 
+section.three .col_33 {
+    float: left;
+    padding: 2rem;
+}
 
-section.two
+section.three .clearfix.cnt {
+    margin: 0 -2rem;
+}
 
-section.two
+section.three img {
+    max-width: 100%;
+}
 
+section.three .underlined {
+    text-decoration-line: underline;
+}
 /* /sitemain */
 
 /* utility */
+p {
+    font-size: 0.8rem;
+}
+
 h2 {
     font-size: 4.2rem;
     font-weight: 700;
@@ -351,6 +366,15 @@ section {
 
 .white_back {
     background-color: white;
+}
+
+.col_33 {
+    width: 33.33%;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
 }
 /* /utility */
 /* debug */
