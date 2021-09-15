@@ -55,7 +55,7 @@ header div>span.ani:hover {
     border-bottom: 2px solid grey;
 }
 
-header div.right {
+.right {
     text-align: right;
 }
 
@@ -343,6 +343,9 @@ section.four a {
     font-size: 0.8rem;  
 }
 /* /section4 */
+div.five {
+    margin-top: 3rem;
+}
 div.five div.cont div {
     float: left;
 }
@@ -435,6 +438,28 @@ div.five div.side_right div.bl {
 div.five div.side_right div.br {
     background-color: #FFD830;
 }
+/* /cubi */
+
+section.six {
+    padding-bottom: 100px;
+}
+section.blueback {
+    background-color: #B4D0E7;
+}
+
+section.six h3 {
+    color: #61082B;
+    margin-bottom: 0;
+}
+
+section.six div.clearfix div {
+    float: left;
+}
+
+section.six>div.clearfix>div.right>span.btn.white_back {
+    border-style: none;
+    display: inline-block;
+}
 /* /sitemain */
 
 /* utility */
@@ -483,19 +508,9 @@ h3 {
 a {
     color: #156EFF;
 }
+
+.right {
+    text-align: right;
+}
 /* /utility */
-/* debug */
 
-.debug .five {
-    background-color: cadetblue;
-    height: 500px;
-}
-
-.debug footer {
-    background-color: darkgoldenrod;
-}
-
-.debug footer div div {
-    border-top: 2px solid white;
-    height: 300px;
-}
