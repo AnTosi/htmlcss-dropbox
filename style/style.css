@@ -545,6 +545,15 @@ footer select {
 footer select>option {
     background-color: black;
 }
+
+footer div.selezione_lingua {
+    display: inline-block;
+    width: 15%;
+    padding-top: 3rem;
+    padding-right: 1rem;
+    border-top: 2px solid white;
+}
+
 /* /sitefooter */
 
 /* utility */
