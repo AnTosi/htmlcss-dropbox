@@ -151,14 +151,13 @@ section.one div.radio {
     margin-bottom: 30px;
 }
 
-section.one div.plan>div {
+section.one div.grey_bord>div {
     border: 1px solid #E6E6E7;
 }
 
-section.one div.plan {
-    height: 100%;
+section.one div.col_33 {
     float: left;
-    width: 33%;
+    width: 33.33%;
     padding: 1rem;
 }
 
@@ -177,6 +176,7 @@ section.one div.plan_cont {
     padding: 1.5rem;
     font-size: 0.8rem;
     padding-bottom: 6rem;
+    min-height: 1000px;
 }
 
 section.one h4 {
@@ -264,7 +264,33 @@ section.one div.icons div {
     padding: 15px 0;
 }
 
+section.one .large .cnt {
+    padding: 2rem;
+}
 
+section.one .large .cnt h4 {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+section.one .large .cnt>div.left{
+    width: 70%;
+}
+
+section.one .large .cnt>div.right{
+    width: 30%;
+}
+
+section.one .large .cnt>div.right span {
+    margin: 0;
+}
+section.one .large .cnt>div {
+    float: left;
+}
+
+section.one .large .cnt>div.left p {
+    font-size: 0.8rem;
+}
 
 
 /* /sitemain */
