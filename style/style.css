@@ -702,3 +702,18 @@ li.show:hover span.hide {
 header span.hide a:hover {
     background-color: rgb(213, 213, 213);
 }
+
+/* schermataperche */
+/* section1perche */
+section.hero.pg_perche {
+    padding-top: 60px;
+}
+section.hero.pg_perche div.hero {
+width: 100%;
+}
+
+section.hero.pg_perche div.hero img {
+    width: 100%;
+}
+/* /section1perche */
+/* /schermataperche */
