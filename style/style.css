@@ -49,7 +49,6 @@ header img {
 
 header div li {
     font-size: 0.9rem;
-    display: inline-block;
     margin: 0 20px;
 }
 
@@ -128,7 +127,6 @@ section.jumbo {
 section.jumbo div.jumbo_left {
     width: 35%;
     font-size: 1rem;
-    display: inline-block;
     padding-bottom: 50px;
 }
 
@@ -215,7 +213,6 @@ section.one p>span {
 }
 
 section.one span {
-    display: inline-block;
     margin: 15px 0;
 }
 
@@ -252,7 +249,6 @@ section.one span.link {
 }
 
 section.one hr {
-    display: inline-block;
     height: 1px;
     width: 20%;
     color: #DBDBDD;
@@ -297,7 +293,6 @@ section.one .large .cnt {
 }
 
 section.one .large .cnt h4 {
-    display: inline-block;
     margin-bottom: 0;
 }
 
@@ -329,7 +324,6 @@ section.two div.text_cnt {
 
 section.two .text_cnt span.btn{
     margin-top: 2rem;
-    display: inline-block;
 }
 /* /section2 */
 
@@ -424,7 +418,6 @@ div.five div.middle div{
 }
 
 div.five div.middle hr {
-    display: inline-block;
     width: 10%;
     height: 1px;
     color: #E4E4E6;
@@ -469,7 +462,6 @@ section.six h3 {
 
 section.six>div.clearfix>div.right>span.btn.white_back {
     border-style: none;
-    display: inline-block;
 }
 /* /section6 */
 section.seven {
@@ -562,7 +554,6 @@ footer select>option {
 }
 
 footer div.selezione_lingua {
-    display: inline-block;
     width: 15%;
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -651,6 +642,9 @@ a {
     background-color: rgb(250, 250, 250);
 }
 
+.in_bl {
+    display: inline-block;
+}
 /* /utility */
 
 /* supportdropdown */
@@ -675,7 +669,6 @@ header span.hide a {
     color: rgb(66, 65, 65);
     background-color: white;
     width: 75px;
-    display: inline-block;
 }
 
 li.show:hover span.hide {
