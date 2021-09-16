@@ -161,6 +161,14 @@ i.fa-arrow-down {
 /* /jumbotron */
 
 /* section1to4 */
+
+section.one {
+    margin-top:80px;
+}
+
+section.one h3 {
+    font-size: 2.3rem;
+}
 section.one div.radio span {
     margin-right: 20px;
 }
@@ -210,6 +218,13 @@ section.one p {
     margin-top: 20px;
 }
 
+section.one div.icons>div {
+    line-height: 1.3rem;
+}
+
+section.one div.icons i {
+    padding-top: 0.3rem;
+}
 section.one div.btn_container {
     text-align: center;
     margin-top: 30px;
@@ -263,7 +278,6 @@ section.one div i~span {
 
 section.one div.icons div {
     position: relative;
-    line-height: 100%;
     vertical-align: middle;
     padding: 15px 0;
 }
@@ -596,6 +610,7 @@ section {
 
 .thick {
     font-weight: 700;
+    font-size: 1rem;
 }
 
 .grey_text {
