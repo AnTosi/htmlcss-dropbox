@@ -532,7 +532,7 @@ section.seven div.questions:hover div.answers {
 /* sitefooter */
 footer {
     background-color: black;
-    padding: 80px 0 20px 0;
+    padding-top: 100px;
     color: white;
 }
 
@@ -559,12 +559,16 @@ footer div.clearfix>div {
 footer div.clearfix {
     margin-bottom: 80px;
 }
+footer div.selezione_lingua {
+    color: #666666;
+}
 
 footer select {
     background-color: rgb(0, 0, 0);
-    color: white;
     border-style: none;
+    color: #666666;
 }
+
 footer select>option {
     background-color: black;
 }
@@ -573,8 +577,9 @@ footer div.selezione_lingua {
     display: inline-block;
     width: 15%;
     padding-top: 3rem;
+    padding-bottom: 3rem;
     padding-right: 1rem;
-    border-top: 2px solid white;
+    border-top: 2px solid #666666;
 }
 
 /* /sitefooter */
