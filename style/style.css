@@ -699,20 +699,32 @@ section.hero.pg_perche div.hero img {
     width: 100%;
 }
 
-section.hero.pg_perche div.thin_cnt {
+section.hero.pg_perche div.txt {
     padding-top: 100px;
 }
 
-section.hero.pg_perche div.thin_cnt div:first-child {
+section.hero.pg_perche div.txt div:first-child {
     padding: 0 20px 0 0;
 }
 
-section.hero.pg_perche div.thin_cnt div:last-child {
+section.hero.pg_perche div.txt div:last-child {
     padding: 10px 5px 5px 131px;
     font-size: 1.15rem;
     line-height: 1.5rem;
 }
 
+section.hero.pg_perche .grid img{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section.hero.pg_perche .grid div {
+    height: 120px;
+    position: relative;
+}
 /* /section1perche */
 
 /* /schermataperche */
