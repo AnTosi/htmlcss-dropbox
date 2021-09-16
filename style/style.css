@@ -636,7 +636,7 @@ span.hide {
     line-height: 1.5rem;
     text-decoration: none;
     color: grey;
-    border-top: 3px solid grey;
+    border-top: 2px solid grey;
 }
 
 header span.hide a {
