@@ -166,9 +166,6 @@ section.one {
     margin-top:80px;
 }
 
-section.one h3 {
-    font-size: 2.3rem;
-}
 section.one div.radio span {
     margin-right: 20px;
 }
@@ -353,13 +350,11 @@ section.three p {
 }
 /* /section3 */
 
-section.four h3 {
-    padding-right: 2rem;
+section.four a {
+    font-size: 0.8rem;
+    text-decoration: underline;  
 }
 
-section.four a {
-    font-size: 0.8rem;  
-}
 /* /section4 */
 div.five {
     margin-top: 3rem;
@@ -459,7 +454,8 @@ div.five div.side_right div.br {
 /* /cubi */
 
 section.six {
-    padding-bottom: 100px;
+    padding-bottom: 120px;
+    padding-top: 120px;
 }
 section.blueback {
     background-color: #B4D0E7;
@@ -638,7 +634,7 @@ section {
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 2.3rem;
     margin-bottom: 2rem;
 }
 
