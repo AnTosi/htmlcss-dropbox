@@ -682,9 +682,15 @@ header span.hide a:hover {
 
 /* schermataperche */
 /* section1perche */
+
+section.hero.pg_perche h3{
+    font-size: 2.5;
+}
+
 section.hero.pg_perche {
     padding-top: 60px;
 }
+
 section.hero.pg_perche div.hero {
 width: 100%;
 }
@@ -692,5 +698,21 @@ width: 100%;
 section.hero.pg_perche div.hero img {
     width: 100%;
 }
+
+section.hero.pg_perche div.thin_cnt {
+    padding-top: 100px;
+}
+
+section.hero.pg_perche div.thin_cnt div:first-child {
+    padding: 0 20px 0 0;
+}
+
+section.hero.pg_perche div.thin_cnt div:last-child {
+    padding: 10px 5px 5px 131px;
+    font-size: 1.15rem;
+    line-height: 1.5rem;
+}
+
 /* /section1perche */
+
 /* /schermataperche */
