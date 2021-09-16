@@ -642,6 +642,11 @@ a {
 .right {
     text-align: right;
 }
+
+.breath_text {
+    font-size: 1.15rem;
+    line-height: 1.5rem;
+}
 /* /utility */
 
 /* supportdropdown */
@@ -709,8 +714,7 @@ section.hero.pg_perche div.txt div:first-child {
 
 section.hero.pg_perche div.txt div:last-child {
     padding: 10px 5px 5px 131px;
-    font-size: 1.15rem;
-    line-height: 1.5rem;
+    
 }
 
 section.hero.pg_perche .grid img{
@@ -724,6 +728,28 @@ section.hero.pg_perche .grid img{
 section.hero.pg_perche .grid div {
     height: 120px;
     position: relative;
+}
+
+section.hero.pg_perche .grid {
+    margin-bottom: 60px;
+}
+
+section.hero.pg_perche .large_cnt h4 {
+    font-size: 2rem;
+    margin-bottom: 1.3rem;
+}
+
+section.hero.pg_perche .large_cnt h5 {
+    font-size: 1.5rem;
+    margin-bottom: 1.3rem;
+}
+
+section.hero.pg_perche .large_cnt div {
+    padding: 0 3rem;
+}
+
+section.hero.pg_perche .large_cnt {
+    margin-bottom: 100px;
 }
 /* /section1perche */
 
