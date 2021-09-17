@@ -621,6 +621,9 @@ section {
     width: 20%;
 }
 
+.col_25 {
+    width: 25%;
+}
 h3 {
     font-size: 2.3rem;
     margin-bottom: 2rem;
@@ -799,8 +802,59 @@ width: 100%;
     display: none;
 }
 /* /section2perche */
-/* /schermataperche */
 
-.debug {
-    height: 500px;
+/* section3 */
+.pg_perche section.three h5, label, input {
+    margin-bottom: 2.5rem;
 }
+
+.pg_perche section.three .col_25 {
+    border-top: 1px solid black;
+    padding-top: 2rem;
+}
+
+.pg_perche section.three .filter.show{
+}
+
+.pg_perche section.three .filter.show button.f:hover {
+    cursor: pointer;
+}
+.pg_perche section.three .filter.show button.f {
+    background-color: rgba(0, 0, 0, 0);
+    height: 100%;
+    text-align: left;
+    margin-bottom: 2rem;
+    padding: 10px;
+    border: 1px solid grey;
+    width: 30%;
+}
+.pg_perche section.three .filter.show button.f:focus {
+    display: none;
+}
+
+.pg_perche section.three .filter.show button.x {
+    text-align: right;
+    display: inline-block;
+    margin-left: 90%;
+}
+
+.pg_perche section.three .filter.show button.x:hover {
+    cursor: pointer;
+}
+
+.pg_perche section.three .filter.show button.x {
+    display: none;
+}
+
+.pg_perche section.three .filter.show button.f:focus ~ button.x {
+    display: inline-block;
+}
+.pg_perche section.three .filter.show button.f:focus ~ div.filtcontainer {
+    display: block;
+
+}
+
+.pg_perche section.three .filter div.filtcontainer {
+    display: none;
+}
+/* /schermataperche */
