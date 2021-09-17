@@ -621,6 +621,10 @@ section {
     width: 20%;
 }
 
+.col_18 {
+    width: calc(20% - 20px);
+}
+
 .col_25 {
     width: 25%;
 }
@@ -854,18 +858,26 @@ width: 100%;
 .pg_perche section.four button:hover {
     cursor: pointer;
 }
+
 .pg_perche section.four .grid {
-    background-color: rgba(255, 127, 80, 0);
+    margin-bottom: 0;
+}
+.pg_perche section.four .grid div{
+    margin: 10px;
+    border: 1px solid grey;
 }
 .pg_perche section.four .hide_grid {
     display: none;
+}
+
+.pg_perche section.four .hide_grid div {
     background-color: coral;
 }
 
-.pg_perche section.four button.more:focus ~ .hide_grid{
+.pg_perche section.four button.more:focus ~ .hide_grid {
     display: block;
-    background-color: rgb(255, 127, 80);
 }
+
 .pg_perche section.four button:focus {
     display: none;
 }
