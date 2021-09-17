@@ -760,17 +760,19 @@ width: 100%;
 
 .pg_perche section.two .titoli>div {
     margin-right: 50px;
-
 }
 
 .pg_perche section.two .titoli button:focus {
     border-bottom: 2px solid rgb(15, 15, 15);
     color: black;
-    z-index: 5;
+}
+.pg_perche section.two .titoli button.lp:focus ~ #show {
+    display: none;
 }
 
 .pg_perche section.two .titoli button:hover {
     color: black;
+    cursor: pointer;
 }
 
 .pg_perche button {
@@ -779,7 +781,22 @@ width: 100%;
     font-size: 1.3rem;
     color: grey;
     padding: 5px 5px 5px 0;
+}
 
+.pg_perche section.two h4 {
+    padding-top: 2.5rem;
+}
+
+.pg_perche section.two p {
+    font-size: 1.15rem;
+}
+
+.pg_perche section.two .contenuto{
+    padding: 80px 5px 120px 5px
+}
+
+.pg_perche section.two .contenuto.hide {
+    display: none;
 }
 /* /section2perche */
 /* /schermataperche */
