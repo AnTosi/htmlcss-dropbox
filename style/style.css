@@ -719,7 +719,7 @@ width: 100%;
     
 }
 
-.pg_perche section.hero .grid img{
+.pg_perche .grid img{
     width: 30%;
     position: absolute;
     top: 50%;
@@ -727,12 +727,12 @@ width: 100%;
     transform: translate(-50%, -50%);
 }
 
-.pg_perche section.hero .grid div {
+.pg_perche .grid div {
     height: 120px;
     position: relative;
 }
 
-.pg_perche section.hero .grid {
+.pg_perche .grid {
     margin-bottom: 60px;
 }
 
@@ -840,5 +840,37 @@ width: 100%;
 .pg_perche section.three .filter div.filtcontainer h5 {
     color: black;
 }
-.pg_perche section.three .filter.show button.f:focus ~ div.filtcontainer {display: block;}
+.pg_perche section.three .filter.show button.f:focus ~ div.filtcontainer 
+{
+    display: block;
+}
+
+section.four button {
+    text-align: center;
+    margin-left: 45%;
+    width: 10%;
+}
+
+section.four button:hover {
+    cursor: pointer;
+}
+section.four .grid {
+    background-color: rgba(255, 127, 80, 0);
+}
+section.four .hide {
+    display: none;
+    background-color: coral;
+}
+
+section.four .hide .div {
+    background-color: rgba(255, 127, 80, 0);
+}
+
+section.four button:focus ~ .hide{
+    display: block;
+    background-color: rgb(255, 127, 80);
+}
+section.four button:focus {
+    display: none;
+}
 /* /schermataperche */
