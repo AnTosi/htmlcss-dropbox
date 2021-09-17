@@ -684,37 +684,39 @@ header span.hide a:hover {
 
 /* schermataperche */
 /* section1perche */
-
-section.hero.pg_perche h3{
+.pg_perche {
+    font-size: 1.15rem;
+}
+.pg_perche section.hero h3{
     font-size: 2.5;
 }
 
-section.hero.pg_perche {
+.pg_perche section.hero {
     padding-top: 60px;
 }
 
-section.hero.pg_perche div.hero {
+.pg_perche section.hero div.hero {
 width: 100%;
 }
 
-section.hero.pg_perche div.hero img {
+.pg_perche section.hero div.hero img {
     width: 100%;
 }
 
-section.hero.pg_perche div.txt {
+.pg_perche section.hero div.txt {
     padding-top: 100px;
 }
 
-section.hero.pg_perche div.txt div:first-child {
+.pg_perche section.hero div.txt div:first-child {
     padding: 0 20px 0 0;
 }
 
-section.hero.pg_perche div.txt div:last-child {
+.pg_perche section.hero div.txt div:last-child {
     padding: 10px 5px 5px 131px;
     
 }
 
-section.hero.pg_perche .grid img{
+.pg_perche section.hero .grid img{
     width: 30%;
     position: absolute;
     top: 50%;
@@ -722,40 +724,66 @@ section.hero.pg_perche .grid img{
     transform: translate(-50%, -50%);
 }
 
-section.hero.pg_perche .grid div {
+.pg_perche section.hero .grid div {
     height: 120px;
     position: relative;
 }
 
-section.hero.pg_perche .grid {
+.pg_perche section.hero .grid {
     margin-bottom: 60px;
 }
 
-section.hero.pg_perche .large_cnt h4 {
+.pg_perche section.hero .large_cnt h4 {
     font-size: 2rem;
     margin-bottom: 1.3rem;
 }
 
-section.hero.pg_perche .large_cnt h5 {
+.pg_perche section.hero .large_cnt h5 {
     font-size: 1.5rem;
     margin-bottom: 1.3rem;
 }
 
-section.hero.pg_perche .large_cnt div {
-    padding: 0 3rem;
+.pg_perche section.hero .large_cnt div {
+    padding: 0 2.3rem;
 }
 
-section.hero.pg_perche .large_cnt {
+.pg_perche section.hero .large_cnt {
     margin-bottom: 100px;
 }
 /* /section1perche */
 
 /* section2perche */
+.pg_perche section.two .titoli { 
+    font-size:1.3rem;
+    border-bottom: 2px solid rgb(155, 155, 155);
+}
 
+.pg_perche section.two .titoli>div {
+    margin-right: 50px;
+
+}
+
+.pg_perche section.two .titoli button:focus {
+    border-bottom: 2px solid rgb(15, 15, 15);
+    color: black;
+    z-index: 5;
+}
+
+.pg_perche section.two .titoli button:hover {
+    color: black;
+}
+
+.pg_perche button {
+    background-color: rgba(128, 128, 128, 0);
+    border-style: none;
+    font-size: 1.3rem;
+    color: grey;
+    padding: 5px 5px 5px 0;
+
+}
 /* /section2perche */
 /* /schermataperche */
 
 .debug {
     height: 500px;
-
 }
