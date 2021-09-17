@@ -52,6 +52,10 @@ header div li {
     margin: 0 20px;
 }
 
+header div li:hover {
+    cursor: pointer;
+}
+
 header a {
     color: black;
 }
