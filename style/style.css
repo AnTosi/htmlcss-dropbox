@@ -857,16 +857,12 @@ section.four button:hover {
 section.four .grid {
     background-color: rgba(255, 127, 80, 0);
 }
-section.four .hide {
+section.four .hide_grid {
     display: none;
     background-color: coral;
 }
 
-section.four .hide .div {
-    background-color: rgba(255, 127, 80, 0);
-}
-
-section.four button:focus ~ .hide{
+section.four button.more:focus ~ .hide_grid{
     display: block;
     background-color: rgb(255, 127, 80);
 }
